@@ -21,4 +21,16 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* 3 - dentro da pasta api_de_tarefas no prompt de comando execute o seguinte comando:
+
+
+      docker build -t  imagem_site  .
+
+
+4 - E por último no prompt de comando execute o seguinte comando:
+
+
+     docker-compose up
+
+
+5 - valide se o site estar no ar acessando o navegador atrávez da url http://localhost:3000/
